@@ -18,7 +18,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".HomeActivity"
+            android:name="test.com.sms.HomeActivity"
             android:configChanges="orientation|keyboard|uiMode|screenSize"
             android:label="@string/app_name"
             android:launchMode="singleTop"
@@ -30,35 +30,35 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".SMSDetailsActivity"
+            android:name="test.com.sms.SMSDetailsActivity"
             android:configChanges="orientation|keyboard|uiMode|screenSize"
             android:label="@string/title_activity_smsdetails"
-            android:parentActivityName=".HomeActivity">
+            android:parentActivityName="test.com.sms.HomeActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".HomeActivity" />
+                android:value="test.com.sms.HomeActivity" />
         </activity>
         <activity
-            android:name=".SearchResultActivity"
+            android:name="test.com.sms.SearchResultActivity"
             android:configChanges="orientation|keyboard|uiMode|screenSize"
             android:label="@string/title_activity_search_result"
-            android:parentActivityName=".HomeActivity">
+            android:parentActivityName="test.com.sms.HomeActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".HomeActivity" />
+                android:value="test.com.sms.HomeActivity" />
         </activity>
         <activity
-            android:name=".NewMessage"
+            android:name="test.com.sms.NewMessage"
             android:configChanges="orientation|keyboard|uiMode|screenSize"
             android:label="@string/title_new_msg"
-            android:parentActivityName=".HomeActivity">
+            android:parentActivityName="test.com.sms.HomeActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".HomeActivity" />
+                android:value="test.com.sms.HomeActivity" />
         </activity>
 
         //Incoming SMS BroadcastReceiver
-        <receiver android:name=".IncomingSMS">
+        <receiver android:name="test.com.sms.IncomingSMS">
             <intent-filter>
                 <action android:name="android.provider.Telephony.SMS_RECEIVED" />
             </intent-filter>
