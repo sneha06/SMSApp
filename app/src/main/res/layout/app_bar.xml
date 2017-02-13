@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/toolbar"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorPrimary">
+
+    <EditText
+        android:id="@+id/edit_search_bar"
+        android:layout_width="@dimen/serach_bar_width"
+        android:layout_height="wrap_content"
+        android:hint="Enter Search Text"
+        android:imeOptions="actionSearch"
+        android:maxLines="1"
+        android:textColor="@android:color/white"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/search_btn"
+        android:layout_width="@dimen/app_bar_icon_size"
+        android:layout_height="@dimen/app_bar_icon_size"
+        android:layout_marginLeft="@dimen/search_btn_margin_left"
+        android:src="@drawable/search_icon"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/cancel_search_btn"
+        android:layout_width="@dimen/app_bar_icon_size"
+        android:layout_height="@dimen/app_bar_icon_size"
+        android:layout_marginLeft="@dimen/cancel_btn_margin_left"
+        android:src="@drawable/cancel_icon"
+        android:visibility="gone" />
+
+</android.support.v7.widget.Toolbar>

@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">SMS</string>
+    <string name="title_activity_main">SMS</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="title_activity_smsdetails">SMSDetailsActivity</string>
+    <string name="send_msg_text_hint">Type Message</string>
+    <string name="action_search">Search</string>
+    <string name="title_activity_search_result">SearchResultActivity</string>
+    <string name="title_new_msg">New Message</string>
+    <string name="action_google_drive">Save SMS in Google Drive</string>
+    <string name="action_open_google_drive">Open SMS in Google Drive</string>
+    <string name="message_allow_perm_to_continue">Please allow permission to continue.</string>
+</resources>

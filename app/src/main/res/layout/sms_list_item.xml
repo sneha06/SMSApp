@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/sms_list_item_padding_top_bottom"
+    android:paddingLeft="@dimen/sms_list_item_padding_right_left"
+    android:paddingRight="@dimen/sms_list_item_padding_right_left"
+    android:paddingTop="@dimen/sms_list_item_padding_top_bottom">
+
+    <TextView
+        android:id="@+id/addressText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/sms_address_text_size"
+        android:textStyle="bold" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/sms_address_body_margin">
+
+        <TextView
+            android:id="@+id/smsTimeText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:textSize="@dimen/sms_body_text_size"/>
+
+        <TextView
+            android:id="@+id/smsBodyText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:paddingRight="@dimen/sms_body_text_padding_right"
+            android:textColor="@android:color/black"
+            android:layout_toLeftOf="@+id/smsTimeText"
+            android:textSize="@dimen/sms_body_text_size" />
+    </RelativeLayout>
+
+</LinearLayout>

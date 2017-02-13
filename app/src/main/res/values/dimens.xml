@@ -1,0 +1,26 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="home_toolbar_image_padding_top">14dp</dimen>
+    <dimen name="home_toolbar_image_padding_bottom">8dp</dimen>
+    <dimen name="home_toolbar_text_size">25sp</dimen>
+    <dimen name="sms_list_item_padding_top_bottom">8dp</dimen>
+    <dimen name="sms_list_item_padding_right_left">12dp</dimen>
+    <dimen name="sms_address_body_margin">2dp</dimen>
+    <dimen name="sms_address_text_size">18sp</dimen>
+    <dimen name="sms_body_text_size">16sp</dimen>
+    <dimen name="sms_body_text_padding_right">4dp</dimen>
+    <dimen name="send_msg_text_size">20sp</dimen>
+    <dimen name="send_msg_padding">8dp</dimen>
+    <dimen name="sms_detail_list_item_padding_top_bottom">8dp</dimen>
+    <dimen name="sms_detail_list_item_padding_right_left">12dp</dimen>
+    <dimen name="send_icon_width">40dp</dimen>
+    <dimen name="send_icon_height">39dp</dimen>
+    <dimen name="serach_bar_width">286dp</dimen>
+    <dimen name="app_bar_icon_size">40dp</dimen>
+    <dimen name="search_btn_margin_left">10dp</dimen>
+    <dimen name="cancel_btn_margin_left">5dp</dimen>
+    <dimen name="new_msg_edit_text_padding_right_left">8dp</dimen>
+</resources>
